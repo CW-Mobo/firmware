@@ -1,0 +1,40 @@
+# Arduino
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+
+# Arduino IDE
+*.ino.d
+arduino_cache/
+build/
+out/
+
+# Compiled files
+*.o
+*.a
+
+# Libraries
+libraries/
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

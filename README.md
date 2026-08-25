@@ -39,21 +39,11 @@ O firmware executa os comandos recebidos pelo sistema e controla os atuadores do
 ## 🏗️ Arquitetura
 
 ```text
-mobile
-├── assets
-├── src
-│   ├── app
-│   ├── components
-│   ├── hooks
-│   ├── services
-│   ├── styles
-│   └── types
-├── .env.example
-├── app.json
-├── package.json
-├── package-lock.json
-├── README.md
-└── tsconfig.json
+firmware/
+├── .gitignore
+├── bracoEsteira.ino
+├── LICENSE
+└── README.md
 ```
 
 ---
