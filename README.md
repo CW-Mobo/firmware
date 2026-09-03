@@ -41,7 +41,14 @@ O firmware executa os comandos recebidos pelo sistema e controla os atuadores do
 ```text
 firmware/
 ├── .gitignore
-├── bracoEsteira.ino
+├── config.h
+├── controle.cpp
+├── controle.h
+├── main.ino
+├── motores.cpp
+├── motores.h
+├── servos.cpp
+├── servos.h
 ├── LICENSE
 └── README.md
 ```
