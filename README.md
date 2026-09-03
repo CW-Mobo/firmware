@@ -40,7 +40,6 @@ O firmware executa os comandos recebidos pelo sistema e controla os atuadores do
 
 ```text
 firmware/
-├── .gitignore
 ├── config.h
 ├── controle.cpp
 ├── controle.h
@@ -49,6 +48,7 @@ firmware/
 ├── motores.h
 ├── servos.cpp
 ├── servos.h
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
